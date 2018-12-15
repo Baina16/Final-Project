@@ -1,0 +1,447 @@
+* {
+
+	box-sizing: border-box;
+}
+
+html, body {
+
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.artbackground {
+    background-image: url("images/artresized.jpg");
+    background-repeat: repeat;
+    background-position: top center;   
+
+}
+
+.logo {
+
+	height: 60px;
+	width: 200px;
+	padding-left: 20px;
+
+}
+
+.plainbackground {
+
+	background-color: #F5F5F5;
+
+}
+
+
+
+.table {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-right: 30%;
+}
+
+
+.table li {
+
+  display: block;
+  padding: 15px;
+  background-color: white;
+  font-family: 'Cinzel', serif;
+  color: black;
+  float: right;
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 10px;
+  display: inline;
+}
+
+.table a:hover {
+  
+  text-decoration: underline;
+}
+
+.table a:visited {
+
+	color: 	#A0A0A0;
+}
+
+nav {
+
+	background-color: white;
+	border-bottom: solid;
+	border-top: solid;
+	border-width: 1px;
+	width: 100%;
+	
+}
+
+/*Home Page*/
+
+
+.jordan {
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -140%);
+	color: black;
+	font-family: 'Cinzel', serif;
+	font-size: 70px;
+	animation-name: fadeIn;
+	-webkit-animation: fadeIn 7s;
+}
+
+
+.slogan {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -120%);
+	color: black;
+	background: white;
+	font-family: 'Cinzel', serif;
+	font-size: 25px;
+	animation-name: fadeIn;
+	-webkit-animation: fadeIn 7s;
+	padding: 5px;
+
+
+}
+
+/*About me page*/
+
+.mainbackground {
+
+	background-color: #efefef;
+	padding-top: 40px;
+	padding-bottom: 15%;
+}
+
+
+.aboutme {
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-30%, -70%);
+	color: black;
+	font-size: 25px;
+	animation-name: fadeIn;
+	-webkit-animation: fadeIn 7s;
+	font-family: 'Old Standard TT', serif;
+
+
+}
+
+.meet {
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-130%, -550%);
+	color: black;
+	border-bottom: dotted;
+	font-size: 35px;
+	animation-name: fadeIn;
+	-webkit-animation: fadeIn 7s;
+	font-family: 'Great Vibes', cursive;
+
+}
+
+
+
+.slides  {
+
+	width:350px; 
+	height:300px; 
+	overflow:hidden; 
+	position:relative; 
+	margin: left;
+	padding-top: 20px;
+	padding-left: 50px;
+
+
+}
+
+.slides img { 
+
+	position:absolute; 
+	animation:slides 20s infinite; 
+	opacity:0; 
+	width: 100%; 
+	height: auto;
+
+}
+
+/*Image Gallery*/
+
+
+.gallery {
+
+	width: 100px;
+	height: 90px;
+}
+
+
+th, .thumbnail {
+
+	font-family: 'Cinzel', serif;
+	font-size: 15px;
+
+}
+
+th {
+
+	font-size: 35px;
+	padding: 20px;
+	background-color: #FFFFF0
+}
+
+table {
+
+	text-align: center;
+	width: 60%;
+	background-color: white;
+}
+
+td {
+
+	padding: 25px;
+}
+
+
+
+/*Social Media*/
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  
+}
+
+.fa:hover {
+    opacity: 0.6;
+}
+
+.fa-facebook {
+  background: #838487;
+  color: white;
+}
+
+.fa-twitter {
+  background: #838487;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #838487;
+  color: white;
+}
+
+.fa-instagram {
+  background: #838487;
+  color: white;
+}
+
+.fa-snapchat {
+  background: #838487;
+  color: white;
+}
+
+/*Contact Page*/
+
+.thankyou {
+
+	padding-bottom: 29px;
+}
+
+.para {
+
+	font-family: 'Old Standard TT', serif;
+}
+
+iframe {
+
+	
+	padding-bottom: 30px;
+
+}
+
+.locate {
+
+	text-align: center;
+}
+
+.sectionone {
+
+
+	background-color: #efefef;
+	float: left;
+	width: 50%;
+	font-family: 'Cinzel', serif;
+	text-align: center;
+}
+
+.sectiontwo {
+
+	background-color: #efefef;
+	float: right;
+	width: 50%;
+}
+
+.connect {
+
+	font-family: 'Cinzel', serif;
+	text-align: center;
+}
+
+fieldset {
+  margin-bottom: 15px;
+  padding: 30px;
+}
+
+legend {
+  padding: 10px 3px;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 20px;
+}
+
+label {
+  width: 110px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px;
+  font-family: 'Cinzel', serif;
+}
+
+
+input:focus {
+  background: #ffffcc;
+}
+
+input, textarea {
+  width: 350px;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type=submit] {
+  width: 150px;
+  padding: 10px;
+  margin-left: 100px;
+}
+
+form {
+  background-color: #efefef;
+  height: 500px;
+  padding-right: 30px;
+  
+}
+
+input[type=reset] {
+
+  width: 150px;
+  padding: 10px;
+}
+
+/*Footer*/
+
+
+.copyright, .copyrightnounderline {
+
+	list-style-type: none;
+}
+
+
+.tabletwo {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-right: 40%;
+}
+
+.tabletwo li {
+  
+  margin-left: 5px;
+  display: inline;
+}
+
+.tabletwo a, .copyrightnounderline {
+
+  display: block;
+  padding: 15px;
+  background-color: #efefef;
+  color: black;
+  float: right;
+  text-decoration: none;
+}
+
+.tabletwo a:hover {
+  
+  text-decoration: underline;
+}
+
+#container {
+
+	min-height: 100%;
+	padding-top: 30px;
+
+
+}
+
+#main {
+
+	overflow: auto;
+	padding-bottom: 100px;
+	
+	margin-left: 30px;
+	margin-right: 30px;
+
+
+}
+
+
+#footer {
+
+	background-color: #efefef;
+	position: relative;
+	height: 150px;
+	margin-top: -100px;
+	padding-top: 20px;
+	clear: both;
+	text-align: center;
+}
+
+
+
+
+/*Keyframes*/
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes moveup {
+    from {bottom: 0px;}
+    to {bottom: 500px;}
+}
+
+@keyframes slides {25%{opacity:1;} 40%{opacity:0;}} 
+.slides img:nth-child(4){animation-delay:0s;}
+.slides img:nth-child(3){animation-delay:5s;}
+.slides img:nth-child(2){animation-delay:10s;}
+.slides img:nth-child(1){animation-delay:15s;}
+
